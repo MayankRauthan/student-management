@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/round"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    >
+<LinearLayout
+android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:id="@+id/linearLayout_stddetail"
+    android:animateLayoutChanges="true"
+    android:paddingBottom="10dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:textSize="20sp"
+            android:text="name : "
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:textAllCaps="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:textSize="20sp"
+            tools:text="mayank rauthan"
+            android:id="@+id/name"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:orientation="horizontal">
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBJECT :"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp"
+            android:text="english"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/subject"
+            />
+       </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_weight="1"
+            android:text="status :"
+            android:textAllCaps="true"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="10dp"
+            android:layout_weight="1"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="#FF0000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:text="Fee :" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:textSize="16sp"
+                android:id="@+id/fees"
+                tools:text="Fee" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:textSize="16sp"
+                android:text="DOJ :"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:id="@+id/doj"
+                tools:text="25 may" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:textSize="16sp"
+                android:text="DA :" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:textSize="16sp"
+                tools:text="000"
+                android:id="@+id/da"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
